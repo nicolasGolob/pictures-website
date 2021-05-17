@@ -1,0 +1,12 @@
+
+@media (max-width:768px) {
+    .logo{
+        font-size: 18px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .burger{
+        display: block;
+     }
+}
