@@ -75,11 +75,10 @@ h1{
     grid-template-columns: repeat(10, 1fr); 
     width: 100%;
     height: 140vh; 
-    padding:8vh;
+    padding:4vh;
     gap: 10px;
-    /* background: rgb(255,247,247);
-    background: linear-gradient(0deg, rgba(255,247,247,1) 0%, rgba(242,242,242,1) 11%, rgba(0,0,0,1) 25%); */
-    background: black;
+    background-color: rgb(7, 7, 7);
+    /* background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgb(29, 29, 29) 100%, rgba(242,242,242,1) 80%); */
 }
 
 .title-p1{
@@ -136,3 +135,74 @@ h1{
     clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
     border-radius: 5px;
 }
+
+/* Features */
+
+.features-galery{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    grid-template-rows: repeat(14, 1fr); 
+    width: 100%;
+    height: 210vh; 
+    padding:4vh;
+    gap: 15px;
+    background-color: rgb(7, 7, 7);
+}
+
+.features-title{
+    font-size: 2.6rem;
+    color: rgb(196, 196, 196);
+    display: flex;
+    align-items:flex-start;
+    justify-content: left;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #2c2c2c, rgb(175, 175, 175));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.galery-image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+}
+
+.image1{
+    grid-column: 1/4;
+    grid-row: 2/7;
+}
+
+.image2{
+    grid-column: 4/-1;
+    grid-row: 2/5;
+}
+
+.image3{
+    grid-column: 1/4;
+    grid-row: 7/12;
+}
+
+.image4{
+    grid-column: 4/8;
+    grid-row: 5/12;
+}
+
+.image5{
+    grid-column: 8/11;
+    grid-row: 5/12;
+}
+
+.image6{
+    grid-column: 1/8;
+    grid-row: 12/15;
+}
+
+.image7{
+    grid-column: 8/-1;
+    grid-row: 12/15;
+}
+
+
+/* make the responsive  stories and features part */
