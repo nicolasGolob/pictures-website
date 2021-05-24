@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
     list-style: none;
     text-decoration: none;
     font-size: 62.5%;
@@ -15,6 +14,8 @@ nav{
     align-items: center;
     min-height: 8vh;
     background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .logo{
@@ -50,6 +51,8 @@ header{
     background: url('../image/forest_mist_main_image.jpg');
     background-size: cover;
     background-position: center;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 h1{
@@ -76,6 +79,7 @@ h1{
     padding:4vh;
     gap: 10px;
     background-color: rgb(7, 7, 7);
+    font-family: 'Open Sans', sans-serif;
     /* background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgb(29, 29, 29) 100%, rgba(242,242,242,1) 80%); */
 }
 
@@ -144,6 +148,7 @@ h1{
     padding:4vh;
     gap: 15px;
     background-color: rgb(7, 7, 7);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .features-title{
@@ -208,12 +213,13 @@ h1{
 .contact-container{
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
-    grid-template-rows: repeat(10, 1fr); 
+    grid-template-rows: repeat(6, 1fr); 
     width: 100%;
-    height: 70vh; 
+    height: 60vh; 
     padding:4vh;
     gap: 15px;
     background-color: rgb(201, 128, 128);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .contact-title{
@@ -243,4 +249,17 @@ h1{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.items-font{
+    grid-column: 3/9;
+    grid-row: 4/5;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.items-font i{
+    font-size: 5rem;
+    color: rgb(97, 96, 96);
 }
