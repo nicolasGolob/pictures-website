@@ -43,8 +43,7 @@ nav{
     display: none;
 }
 
-/***************** Header */
-
+/* Header */
 header{
     height: 100vh; 
     width:100%;
@@ -68,7 +67,6 @@ h1{
 }
 
 /* Stories */
-
 .stories-container{
     display: grid;
     grid-template-rows: repeat(20, 1fr); 
@@ -137,7 +135,6 @@ h1{
 }
 
 /* Features */
-
 .features-container{
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
@@ -207,4 +204,43 @@ h1{
 }
 
 
-/* make the responsive  stories and features part */
+/* Contact */
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    grid-template-rows: repeat(10, 1fr); 
+    width: 100%;
+    height: 70vh; 
+    padding:4vh;
+    gap: 15px;
+    background-color: rgb(201, 128, 128);
+}
+
+.contact-title{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    font-size: 2.6rem;
+    color: rgb(196, 196, 196);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform:uppercase;
+    background-image: linear-gradient(to left, #2c2c2c, rgb(175, 175, 175));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.contact-p{
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    font-size: 2rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #868686, rgb(196, 196, 196));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
