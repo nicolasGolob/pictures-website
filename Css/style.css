@@ -138,7 +138,7 @@ h1{
 
 /* Features */
 
-.features-galery{
+.features-container{
     display: grid;
     grid-template-columns: repeat(10, 1fr); 
     grid-template-rows: repeat(14, 1fr); 
@@ -150,6 +150,8 @@ h1{
 }
 
 .features-title{
+    grid-column: 1/4;
+    grid-row: 1/2;
     font-size: 2.6rem;
     color: rgb(196, 196, 196);
     display: flex;
