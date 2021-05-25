@@ -215,10 +215,10 @@ h1{
     grid-template-columns: repeat(10, 1fr); 
     grid-template-rows: repeat(6, 1fr); 
     width: 100%;
-    height: 60vh; 
+    height: 55vh; 
     padding:4vh;
     gap: 15px;
-    background-color: rgb(201, 128, 128);
+    background-color: rgb(8, 8, 8);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -232,7 +232,7 @@ h1{
     justify-content: center;
     font-weight: bold;
     text-transform:uppercase;
-    background-image: linear-gradient(to left, #2c2c2c, rgb(175, 175, 175));
+    background-image: linear-gradient(to left, #555151, rgb(211, 211, 211));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -245,7 +245,7 @@ h1{
     display: flex;
     align-items:center;
     justify-content: center;
-    background-image: linear-gradient(to left, #868686, rgb(196, 196, 196));
+    background-image: linear-gradient(to right, #808080, rgb(196, 196, 196));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -260,6 +260,6 @@ h1{
 }
 
 .items-font i{
-    font-size: 5rem;
-    color: rgb(97, 96, 96);
+    font-size: 4.2rem;
+    color: rgb(175, 166, 166);
 }
