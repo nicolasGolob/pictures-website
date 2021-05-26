@@ -15,7 +15,21 @@ nav{
     min-height: 8vh;
     background-color: transparent;
     font-family: 'Open Sans', sans-serif;
+}
 
+.fade-in{
+    animation: fade-in 5s;
+    -webkit-animation: fade-in 5s;
+}
+
+  @keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+  @-webkit-keyframes fade-in {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 .logo{
@@ -50,9 +64,12 @@ header{
     width:100%;
     background: url('../image/forest_mist_main_image.jpg');
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 h1{
@@ -67,6 +84,21 @@ h1{
     text-transform: uppercase;
     top:29rem;
     letter-spacing: 5px;
+}
+
+.fade-in-main-title{
+    animation: fade-in-main-title 3s ease-in-out 1.3s both;
+    -webkit-animation:fade-in-main-title 3s ease-in-out 1.3s both;
+}
+
+@keyframes fade-in-main-title {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+    
+  @-webkit-keyframes fade-in-main-title {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 /* Stories */
@@ -149,6 +181,7 @@ h1{
     gap: 15px;
     background-color: rgb(7, 7, 7);
     font-family: 'Open Sans', sans-serif;
+    z-index: 1;
 }
 
 .features-title{
