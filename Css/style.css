@@ -206,6 +206,11 @@ h1{
     display: block;
 }
 
+.galery-image:hover{
+    transform:scale(1.1) ;
+    transition: 1s;
+}
+
 .image1{
     grid-column: 1/4;
     grid-row: 2/7;
