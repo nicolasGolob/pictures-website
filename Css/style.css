@@ -207,7 +207,7 @@ h1{
 }
 
 .galery-image:hover{
-    transform:scale(1.1) ;
+    transform:scale(1.03) ;
     transition: 1s;
 }
 
