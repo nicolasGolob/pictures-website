@@ -5,10 +5,17 @@
     list-style: none;
     text-decoration: none;
     font-size: 62.5%;
-    filter: grayscale(15%);
 }
 
-nav{
+html{
+    filter: grayscale(15%);
+    /*make some pb*/
+}
+
+#navigation{
+    position: fixed;
+    z-index: 40;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -246,7 +253,6 @@ h1{
     grid-row: 12/15;
 }
 
-
 /* Contact */
 .contact-container{
     display: grid;
@@ -298,6 +304,12 @@ h1{
 }
 
 .items-font i{
-    font-size: 4.2rem;
+    font-size: 4rem;
     color: rgb(175, 166, 166);
+}
+
+.items-font i:hover{
+    color: rgb(214, 214, 214);
+    transform: scale(1.2);
+    transition: 1s;
 }
