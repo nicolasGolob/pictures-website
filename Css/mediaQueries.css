@@ -1,5 +1,4 @@
-@media (max-width:958px) {
-
+@media (max-width:1120px) {
     .stories-picture{
         background-image: url('../Image/image1.jpg');
         background-position: center; 
@@ -51,11 +50,10 @@
      }
 
      h1{
-        top:24rem;
+        top:28rem;
         font-size: 3rem;
      }
 
-     /* stories */
     .stories-picture{
         background-position: top; 
     }
@@ -72,12 +70,10 @@
         font-size: 1.4rem;
     }
 
-    /* features */
     .features-title{
         font-size: 1.7rem;
     }
 
-    /*contact*/
     .contact-title{
         font-size: 1.7rem;
     }
@@ -136,7 +132,7 @@
         gap: 12px;
         background-color: rgb(7, 7, 7);
         width: 100%;
-        height: 700vh;
+        height: 640vh;
     }
 
     .features-title{
@@ -176,20 +172,13 @@
 @media (max-width:480px) {
 
     .stories-container{
-        height: 140vh; 
+        height: 90vh; 
     }
 
     .title-p1{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
-    .features-container{
-        height: 540vh;
-    }
-}
-
-
-@media (max-width:420px) {
     .text-p1{
         font-size: .8rem;
     }
@@ -198,17 +187,31 @@
         font-size: .8rem;
     }
     .features-container{
-        height: 500vh;
+        height: 510vh;
     }
 }
+
+
+@media (max-width:420px) {
+    .text-p1{
+        font-size: .7rem;
+    }
+
+    .text-p2{
+        font-size: .7rem;
+    }
+    .features-container{
+        height: 430vh;
+    }
+}
+
+
 @media (max-width:380px) {
 
-    .features-container{
-        height: 450vh;
-    }
-}
-
-@media (max-width:330px) {
+    h1{
+        top:32rem;
+        font-size: 2rem;
+     }
 
     .stories-container{
         height: 85vh;
@@ -218,15 +221,35 @@
         font-size: 1rem;
     }
 
+    .features-container{
+        height: 410vh;
+    }
+}
+
+@media (max-width:310px) {
+    
+    .stories-container{
+        height: 77vh;
+    }
+
+    .title-p1{
+        font-size: .8rem;
+    }
+
     .text-p1{
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     .text-p2{
-        font-size: .7rem;
+        font-size: .6rem;
     }
+
+    .features-title{
+        font-size: .8rem;
+    }
+
     .features-container{
-        height: 380vh;
+        height: 320vh;
     }
 }
 
