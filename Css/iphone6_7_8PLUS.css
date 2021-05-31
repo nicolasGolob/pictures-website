@@ -1,6 +1,6 @@
 
 h1{
-    top:24rem;  
+    top:28rem;  
     font-size: 2rem;
 }
 
@@ -13,15 +13,15 @@ h1{
 }
 
 .text-p1{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .text-p2{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .features-container{
-    height: 440vh;
+    height: 436vh;
 }
 
 .features-title{
