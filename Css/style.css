@@ -126,6 +126,7 @@ h1{
     background-color: rgb(7, 7, 7);
     font-family: 'Open Sans', sans-serif;
     /* background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgb(29, 29, 29) 100%, rgba(242,242,242,1) 80%); */
+    
 }
 
 .title-p1{
@@ -141,6 +142,8 @@ h1{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .text-p1{
@@ -151,6 +154,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .stories-picture{
@@ -161,6 +166,8 @@ h1{
     background-size: cover;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .text-p2{
@@ -171,6 +178,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .stories-picture-2{
@@ -181,6 +190,8 @@ h1{
     background-size: cover;
     clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
     border-radius: 5px;
+     opacity: 0;
+    visibility: hidden;
 }
 
 /* Features */
@@ -210,6 +221,8 @@ h1{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .galery-image{
@@ -217,6 +230,8 @@ h1{
     height: 100%;
     object-fit:cover;
     display: block;
+    /* opacity: 0;
+    visibility: hidden; */
 }
 
 .galery-image:hover{
@@ -339,5 +354,6 @@ h1{
     transition: 1s ease-in-out;
 }
 
+/* Scroll Tiger */
 
 
