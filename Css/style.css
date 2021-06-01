@@ -230,8 +230,12 @@ h1{
     height: 100%;
     object-fit:cover;
     display: block;
-    /* opacity: 0;
-    visibility: hidden; */
+  
+}
+
+.galery{
+    opacity: 0;
+    visibility: hidden;
 }
 
 .galery-image:hover{
@@ -286,6 +290,12 @@ h1{
     background-color: rgb(8, 8, 8);
     font-family: 'Open Sans', sans-serif;
 }
+
+.contact{
+    opacity: 0;
+    visibility: hidden;
+}
+
 
 .contact-title{
     grid-column: 1/-1;
