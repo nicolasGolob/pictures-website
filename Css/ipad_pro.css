@@ -1,0 +1,33 @@
+
+h1{
+    top:55rem;  
+    font-size: 5rem;
+}
+
+.stories-container{
+    height: 100vh; 
+}
+
+.title-p1{
+    font-size: 3rem;
+}
+
+.text-p1{
+    font-size: 1.7rem;
+}
+
+.text-p2{
+    font-size: 1.7rem;
+}
+
+
+.features-container{
+    display:block;
+    height: 595vh;
+    padding:15px;
+    gap: 15px;
+}
+
+.features-title{
+    font-size: 3rem;
+}

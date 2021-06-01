@@ -1,0 +1,32 @@
+
+h1{
+    top:4rem;  
+    font-size: 3rem;
+}
+
+.stories-container{
+    height: 100vh; 
+}
+
+.title-p1{
+    font-size: 2rem;
+}
+
+.text-p1{
+    font-size: 1.3rem;
+}
+
+.text-p2{
+    font-size: 1.3rem;
+}
+
+.features-title{
+    font-size: 2rem;
+}
+
+.features-container{
+    display:flex;
+    flex-wrap: wrap;
+    height: 550vh;
+}
+
