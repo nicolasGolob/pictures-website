@@ -36,6 +36,16 @@ galleries.forEach((galery) => {
     });
 })
 
-
-
+/* Contact Part */
+const contactBlock = gsap.utils.toArray('.contact');
+contactBlock.forEach((contact)=>{
+    gsap.to(contact, { duration:1, y:0, autoAlpha: 1,
+        scrollTrigger: {
+            trigger: contact,
+            start: "top 90%",
+            end: "bottom 80%",
+            toggleActions : "play",
+            scrub: true    }
+    });
+})
 

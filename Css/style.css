@@ -97,6 +97,7 @@ h1{
     text-transform: uppercase;
     top:29rem;
     letter-spacing: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .fade-in-main-title{
@@ -364,6 +365,5 @@ h1{
     transition: 1s ease-in-out;
 }
 
-/* Scroll Tiger */
 
 
