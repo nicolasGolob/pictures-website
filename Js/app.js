@@ -3,9 +3,27 @@ window.addEventListener('scroll',() => {
     if (window.scrollY <= 30) { 
         navbarChanging.style.backgroundColor = 'transparent'; 
     } else {
-        navbarChanging.style.backgroundColor = ' rgba(211, 211, 211, 0.8)';
+        navbarChanging.style.backgroundColor = 'rgba(211, 211, 211, 0.8)';
     }
 });
+
+// Responsive navbar
+
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const navLinks = document.querySelector(".nav-links");
+hamburgerIcon.addEventListener("click", responsive);
+
+function responsive() {
+    hamburgerIcon.classList.toggle("active");
+    navLinks.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+navLink.forEach(event => event.addEventListener("click", closeNavBar));
+function closeNavBar() {
+    hamburgerIcon.classList.remove("active");
+    navLinks.classList.remove("active");
+}
 
 /***************** Scroll Effect ******************/
 

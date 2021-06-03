@@ -1,4 +1,5 @@
 @media (max-width:1120px) {
+    
     .stories-picture{
         background-image: url('../Image/image1.jpg');
         background-position: center; 
@@ -28,26 +29,40 @@
 
 @media (max-width:768px){
 
-    .logo{
-        font-size: 2.5rem;
-        align-items: center;
-        justify-content: center;
+    .nav-links {
+        position: fixed;
+        left: -100%;
+        top: 5.3rem;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0 0 2rem 2rem;
+        text-align: center;
+        transition: .5s;
+        background: rgba(211, 211, 211, 0.8);
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
-    .nav-links a:not(:nth-child(4)){
-        display: none;
+    .nav-link{
+        color: rgb(22, 22, 22);
     }
-  
-    .nav-links a:nth-child(4){
-        position: absolute;
-        left: 92%;
+
+    .nav-link:hover{
+        cursor: pointer;
+        color: rgb(51, 51, 51);
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger-icon {
         display: block;
         cursor: pointer;
-        color: #373737;
-        font-size: 3rem;
-        display: flex;
-        justify-content: flex-end;
-     }
+    }
 
      h1{
         top:28rem;
