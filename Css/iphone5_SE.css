@@ -5,25 +5,37 @@ h1{
 }
 
 .stories-container{
-    height: 100vh; 
+    height: 80vh; 
 }
 
 .title-p1{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .text-p1{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 .text-p2{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 .features-container{
-    height: 440vh;
+    height: 450vh;
 }
 
 .features-title{
-    font-size: 1.3rem;
+    font-size: 1rem;
+}
+
+.contact-title{
+    font-size: 1rem;
+}
+
+.contact-p{
+    font-size: .7rem;
+}
+
+.items-font i{
+    font-size: 2rem;
 }

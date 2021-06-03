@@ -1,6 +1,6 @@
 
 h1{
-    top:4rem;  
+    top:45rem;  
     font-size: 3rem;
 }
 
@@ -27,6 +27,13 @@ h1{
 .features-container{
     display:flex;
     flex-wrap: wrap;
-    height: 550vh;
+    height: 600vh;
 }
 
+.contact-title{
+    font-size: 2rem;
+}
+
+.contact-p{
+    font-size: 1.8rem;
+}

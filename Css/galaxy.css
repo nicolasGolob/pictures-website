@@ -1,15 +1,15 @@
 
 h1{
-    top:24rem;  
+    top:24.5rem;  
     font-size: 2rem;
 }
 
 .stories-container{
-    height: 100vh; 
+    height: 80vh; 
 }
 
 .title-p1{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .text-p1{
@@ -25,5 +25,17 @@ h1{
 }
 
 .features-title{
-    font-size: 1.3rem;
+    font-size: 1rem;
+}
+
+.contact-title{
+    font-size: 1rem;
+}
+
+.contact-p{
+    font-size: .9rem;
+}
+
+.items-font i{
+    font-size: 2.5rem;
 }
