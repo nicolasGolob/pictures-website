@@ -337,7 +337,7 @@ h1{
 .contact-p{
     grid-column: 1/-1;
     grid-row: 3/4;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -356,7 +356,7 @@ h1{
 }
 
 .items-font i{
-    font-size: 4rem;
+    font-size: 3.3rem;
     color: rgb(175, 166, 166);
 }
 
