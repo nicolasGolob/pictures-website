@@ -1,3 +1,38 @@
+@media (max-width:1440px) {
+    
+    h1{
+        top:38rem;
+        font-size: 5rem;
+    }
+
+    .stories-picture{
+        background-image: url('../Image/misty_forest.jpg');
+        background-position: center; 
+        background-size: cover;
+    }
+
+    .stories-picture{
+        background-position: top; 
+    }
+
+    .title-p1{
+        font-size: 3rem;
+    }
+
+    .text-p1{
+        font-size: 2rem;
+    }
+
+    .text-p2{
+        font-size: 2rem;
+    }
+
+    .fa-arrow-circle-up{
+        font-size: 8rem;
+    }
+}
+
+
 @media (max-width:1120px) {
     
     h1{
@@ -33,7 +68,7 @@
 }
 
 @media (max-width:768px){
-
+ 
     .nav-links {
         position: fixed;
         left: -100%;
@@ -70,7 +105,7 @@
     }
 
     h1{
-        top:52rem;
+        top:25rem;
         font-size: 3.5rem;
     }
 
@@ -111,125 +146,12 @@
     }
 }
 
-@media (max-width:698px) {
-
-    h1{
-        top:52rem;
-        font-size: 3rem;
-    }
-
-    .title-p1{
-        font-size: 1.4rem;
-    }
-
-    .text-p1{
-        font-size: 1.2rem;
-    }
-
-    .text-p2{
-        font-size: 1.2rem;
-    }
-
-    .features-title{
-    font-size: 1.4rem;
-    }
-
-}
-
-@media (max-width:590px) {
-
-    h1{
-        top:53rem;
-        font-size: 2.4rem;
-    }
-
-    .stories-container{
-        height: 110vh; 
-    }
-
-    .title-p1{
-        font-size: 1.3rem;
-    }
-
-    .text-p1{
-        font-size: 1rem;
-    }
-
-    .text-p2{
-        font-size: 1rem;
-    }
-
-    .features-container{
-        display:flex;
-        flex-wrap: wrap;
-        padding:15px;
-        gap: 12px;
-        background-color: rgb(7, 7, 7);
-        width: 100%;
-        height: 640vh;
-    }
-
-    .features-title{
-        font-size: 1.3rem;
-    }
-
-    .contact-title{
-        font-size: 1.3rem;
-    }
-
-    .contact-p{
-        font-size: 1.1rem;
-    }
-
-    .items-font i{
-        font-size:3rem;
-    }
-
-    .fa-arrow-circle-up{
-        font-size: 6rem;
-    }
-}
-
-@media (max-width:520px) {
-
-    .features-container{
-        height: 600vh;
-    }
-
-    .features-title{
-        font-size: 1.2rem;
-    }
-}
-
-
-@media (max-width:480px) {
-
-    h1{
-        top:32rem;
-        font-size: 1.9rem;
-     }
-
-    .stories-container{
-        height: 90vh; 
-    }
-
-    .title-p1{
-        font-size: 1.2rem;
-    }
-
-    .text-p1{
-        font-size: .8rem;
-    }
-
-    .text-p2{
-        font-size: .8rem;
-    }
-    .features-container{
-        height: 510vh;
-    }
-}
-
 @media (max-width:425px) {
+    h1{
+        top:25rem;
+        font-size: 2rem;
+    }
+
     .text-p1{
         font-size: .7rem;
     }
@@ -245,7 +167,7 @@
 @media (max-width:375px) {
 
     h1{
-        top:32rem;
+        top:27rem;
         font-size: 1.6rem;
      }
 
@@ -262,7 +184,7 @@
     }
 }
 
-@media (max-width:310px) {
+@media (max-width:320px) {
     
     .stories-container{
         height: 77vh;
@@ -285,7 +207,10 @@
     }
 
     .features-container{
-        height: 320vh;
+        display:block;
+        height: 400vh;
+        padding:15px;
+        gap: 15px;
     }
 }
 
