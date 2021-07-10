@@ -251,7 +251,6 @@ h1{
     height: 100%;
     object-fit:cover;
     display: block;
-  
 }
 
 .galery{
@@ -385,5 +384,8 @@ h1{
     transition: 1s ease-in-out;
 }
 
-
-
+@media(max-width:375px){
+    .features-container{
+        height: 700vh;
+    }
+ }

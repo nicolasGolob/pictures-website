@@ -1,7 +1,7 @@
 @media (max-width:1120px) {
     
     h1{
-        top:48rem;
+        top:35rem;
         font-size: 5rem;
     }
 
@@ -88,6 +88,10 @@
 
     .text-p2{
         font-size: 1.4rem;
+    }
+
+    .features-container{
+        height: 530vh;
     }
 
     .features-title{
@@ -225,7 +229,7 @@
     }
 }
 
-@media (max-width:420px) {
+@media (max-width:425px) {
     .text-p1{
         font-size: .7rem;
     }
@@ -234,11 +238,11 @@
         font-size: .7rem;
     }
     .features-container{
-        height: 430vh;
+        height: 530vh;
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:375px) {
 
     h1{
         top:32rem;
@@ -254,7 +258,7 @@
     }
 
     .features-container{
-        height: 410vh;
+        height: 465vh;
     }
 }
 
