@@ -21,7 +21,10 @@ h1{
 }
 
 .features-container{
-    height: 440vh;
+    display:block;
+    height: 475vh;
+    padding:15px;
+    gap: 15px;
 }
 
 .features-title{

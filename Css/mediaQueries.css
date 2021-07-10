@@ -202,15 +202,16 @@
         font-size: .6rem;
     }
 
-    .features-title{
-        font-size: .8rem;
-    }
-
     .features-container{
         display:block;
         height: 400vh;
         padding:15px;
         gap: 15px;
     }
+    
+    .features-title{
+        font-size: .8rem;
+    }
+
 }
 

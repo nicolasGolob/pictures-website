@@ -1,24 +1,42 @@
+
 h1{
-    top:30rem;  
-    font-size: 2.8rem;
+    top:28rem;  
+    font-size: 2rem;
 }
 
-.features-container{
-    height: 450vh;
+.stories-container{
+    height: 86vh; 
 }
 
-.features-title{
-    font-size: 1.3rem;
-}
-
-.contact-title{
-    font-size: 1.3rem;
-}
-
-.contact-p{
+.title-p1{
     font-size: 1rem;
 }
 
+.text-p1{
+    font-size: .5rem;
+}
+
+.text-p2{
+    font-size: .5rem;
+}
+
+.features-container{
+    display:block;
+    height: 370vh;   
+}
+
+.features-title{
+    font-size: 1rem;
+}
+
+.contact-title{
+    font-size: 1rem;
+}
+
+.contact-p{
+    font-size: .9rem;
+}
+
 .items-font i{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
