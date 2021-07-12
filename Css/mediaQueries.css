@@ -126,7 +126,10 @@
     }
 
     .features-container{
-        height: 530vh;
+        display:block;
+        height: 725vh;
+        padding:15px;
+        gap: 15px;
     }
 
     .features-title{
@@ -146,7 +149,81 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:740px) {
+    .features-container{
+        height: 680vh;
+    }
+}
+
+@media (max-width:714px) {
+    .features-container{
+        height: 672vh;
+    }
+}
+
+@media (max-width:690px) {
+
+    .features-container{
+        height: 650vh;
+    }
+}
+
+
+@media (max-width:685px) {
+    .features-container{
+        height: 632vh;
+    }
+}
+
+@media (max-width:665px) {
+    .features-container{
+        height: 614vh;
+    }
+}
+
+@media (max-width:644px) {
+    .features-container{
+        height: 594vh;
+    }
+}
+
+@media (max-width:628px) {
+    .features-container{
+        height: 580vh;
+    }
+}
+
+@media (max-width:610px) {
+    .features-container{
+        height: 570vh;
+    }
+}
+
+@media (max-width:595px) {
+    .features-container{
+        height: 550vh;
+    }
+}
+
+@media (max-width:585px) {
+    .features-container{
+        height: 535vh;
+    }
+}
+
+@media (max-width:568px) {
+    .features-container{
+        height: 515vh;
+    }
+}
+
+@media (max-width:525px) {
+    .features-container{
+        height: 490vh;
+    }
+}
+
+@media (max-width:521px) {
     h1{
         top:25rem;
         font-size: 2rem;
@@ -159,12 +236,48 @@
     .text-p2{
         font-size: .7rem;
     }
+  
+}
+
+@media (max-width:500px) {
     .features-container{
-        height: 530vh;
+        height: 462vh;
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:498px) {
+    .features-container{
+        height: 432vh;
+    }
+}
+
+@media (max-width:450px) {
+    .features-container{
+        height: 420vh;
+    }
+}
+
+@media (max-width:425px) {
+
+    h1{
+        top:25rem;
+        font-size: 2rem;
+    }
+
+    .text-p1{
+        font-size: .7rem;
+    }
+
+    .text-p2{
+        font-size: .7rem;
+    }
+
+    .features-container{
+        height: 380vh;
+    }
+}
+
+@media(max-width:375px) {
 
     h1{
         top:27rem;
@@ -180,11 +293,17 @@
     }
 
     .features-container{
-        height: 465vh;
+        height: 340vh;
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:350px) {
+    .features-container{
+        height: 317vh;
+    }
+}
+
+@media(max-width:320px) {
     
     .stories-container{
         height: 77vh;
@@ -203,15 +322,17 @@
     }
 
     .features-container{
-        display:block;
-        height: 400vh;
-        padding:15px;
-        gap: 15px;
+        height: 290vh;
     }
-    
+   
     .features-title{
         font-size: .8rem;
     }
 
 }
 
+@media (max-width:310px) {
+    .features-container{
+        height: 270vh;
+    }
+}
