@@ -1,338 +1,281 @@
-@media (max-width:1440px) {
-    
+@media (min-width:1440px) {
     h1{
         top:38rem;
         font-size: 5rem;
     }
-
     .stories-picture{
         background-image: url('../Image/misty_forest.jpg');
         background-position: center; 
         background-size: cover;
     }
-
     .stories-picture{
         background-position: top; 
     }
-
     .title-p1{
         font-size: 3rem;
     }
-
     .text-p1{
         font-size: 2rem;
     }
-
     .text-p2{
         font-size: 2rem;
     }
-
     .fa-arrow-circle-up{
         font-size: 8rem;
+    }
+    .features-title{
+        font-size: 3rem;
+        padding-bottom: .2rem;
+    }
+    .contact-title{
+        font-size: 3.2rem;
+    }
+    .contact-p{
+        font-size: 2.5rem;
+    }
+    .items-font i{
+        font-size:4rem;
     }
 }
 
 
-@media (max-width:1120px) {
-    
+@media (max-width:1024px) {
     h1{
-        top:35rem;
+        top:36rem;
         font-size: 5rem;
     }
-
     .stories-picture{
         background-image: url('../Image/misty_forest.jpg');
         background-position: center; 
         background-size: cover;
     }
-
     .stories-picture{
         background-position: top; 
     }
-
     .title-p1{
-        font-size: 1.9rem;
+        font-size: 2.4rem;
     }
-
     .text-p1{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
-
     .text-p2{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+    }
+    .features-container{
+        display:block;
+        height:100%;
+        width:100%;
+        padding:15px;
+        gap: 15px;
+    }
+    .features-title{
+        font-size: 2.4rem;
+        padding-bottom: 1.1em;
     }
 
+    .contact-title{
+        font-size: 2.4rem;
+    }
+    .contact-p{
+        font-size: 2.1rem;
+    }
+    .items-font i{
+        font-size:4rem;
+    }
     .fa-arrow-circle-up{
         font-size: 8rem;
     }
-}
+} 
 
-@media (max-width:768px){
- 
+@media(max-width:768px) {
     .nav-links {
         position: fixed;
         left: -100%;
         top: 5.3rem;
         flex-direction: column;
         width: 100%;
-        border-radius: 0 0 2rem 2rem;
+        border-radius: 0 0 0rem 1rem;
         text-align: center;
         transition: .5s;
-        background: rgba(211, 211, 211, 0.8);
+        background: rgba(214, 214, 214, 0.2);
         box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
     }
-
     .nav-link{
         color: rgb(22, 22, 22);
+        font-size: 1.8rem;
     }
-
     .nav-link:hover{
         cursor: pointer;
         color: rgb(51, 51, 51);
     }
-
     .nav-links.active {
         left: 0;
     }
-
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 1.8rem 0;
     }
-
     .hamburger-icon {
         display: block;
         cursor: pointer;
     }
-
     h1{
         top:25rem;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
-
     .stories-picture{
         background-position: top; 
     }
-
     .title-p1{
+        font-size: 1.8rem;
+    }
+    .text-p1{
+        font-size: 1.2rem;
+    }
+    .text-p2{
+        font-size: 1.2rem;
+    }
+    .features-container{
+        display:block;
+        height:100%;
+        width:100%;
+        padding:1.5rem;
+        gap: 1.5rem;
+    }
+    .features-title{
+        font-size: 1.8rem;
+        padding-bottom: 1.3em;
+    }
+    .contact-title{
+        font-size: 1.8rem;
+    }
+    .contact-p{
+        font-size: 1.6rem;
+    }
+    .items-font i{
+        font-size:3rem;
+    }
+    .fa-arrow-circle-up{
+        font-size: 8rem;
+    }
+} 
+
+@media (max-width:425px) {
+
+    .nav-link{
+        color: rgb(22, 22, 22);
+        font-size: 1.4rem;
+    }
+    .nav-item {
+        margin: 1.3rem 0;
+    }
+    h1{
+        top:27rem;
+        font-size: 1.6rem;
+        letter-spacing: 1rem;
+    }
+    .stories-picture{
+        background-position: top; 
+    }
+    .title-p1{
+        font-size: 1.2rem;
+    }
+    .text-p1{
+        font-size: 1rem;
+    }
+    .text-p2{
+        font-size: 1rem;
+    }
+    .features-container{
+        display:block;
+        height:100%;
+        width:100%;
+        padding:1.5rem;
+        gap: 3rem;
+    }
+    .features-title{
+        font-size: 1.2rem;
+        padding-bottom: 1em;
+    }
+    .contact-title{
         font-size: 1.7rem;
     }
-
-    .text-p1{
-        font-size: 1.4rem;
+    .contact-p{
+        font-size: 1.2rem;
     }
+    .items-font i{
+        font-size:2.4rem;
+    }
+    .fa-arrow-circle-up{
+        font-size: 8rem;
+    }
+} 
 
+@media(max-width:375px) {
+ 
+    h1{
+        top:25rem;
+        font-size: 2rem;
+    }
+    .title-p1{
+        font-size: 1.3rem;
+    }
+    .text-p1{
+        font-size: .9rem;
+    }
     .text-p2{
-        font-size: 1.4rem;
+        font-size: .9rem;
     }
 
     .features-container{
         display:block;
-        height: 725vh;
+        height:100%;
+        width:100%;
         padding:15px;
         gap: 15px;
     }
 
     .features-title{
-        font-size: 1.7rem;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
     }
-
     .contact-title{
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
-
     .contact-p{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
-
     .items-font i{
-        font-size:4rem;
-    }
-}
-
-@media (max-width:740px) {
-    .features-container{
-        height: 680vh;
-    }
-}
-
-@media (max-width:714px) {
-    .features-container{
-        height: 672vh;
-    }
-}
-
-@media (max-width:690px) {
-
-    .features-container{
-        height: 650vh;
-    }
-}
-
-
-@media (max-width:685px) {
-    .features-container{
-        height: 632vh;
-    }
-}
-
-@media (max-width:665px) {
-    .features-container{
-        height: 614vh;
-    }
-}
-
-@media (max-width:644px) {
-    .features-container{
-        height: 594vh;
-    }
-}
-
-@media (max-width:628px) {
-    .features-container{
-        height: 580vh;
-    }
-}
-
-@media (max-width:610px) {
-    .features-container{
-        height: 570vh;
-    }
-}
-
-@media (max-width:595px) {
-    .features-container{
-        height: 550vh;
-    }
-}
-
-@media (max-width:585px) {
-    .features-container{
-        height: 535vh;
-    }
-}
-
-@media (max-width:568px) {
-    .features-container{
-        height: 515vh;
-    }
-}
-
-@media (max-width:525px) {
-    .features-container{
-        height: 490vh;
-    }
-}
-
-@media (max-width:521px) {
-    h1{
-        top:25rem;
-        font-size: 2rem;
-    }
-
-    .text-p1{
-        font-size: .7rem;
-    }
-
-    .text-p2{
-        font-size: .7rem;
-    }
-  
-}
-
-@media (max-width:500px) {
-    .features-container{
-        height: 462vh;
-    }
-}
-
-@media (max-width:498px) {
-    .features-container{
-        height: 432vh;
-    }
-}
-
-@media (max-width:450px) {
-    .features-container{
-        height: 420vh;
-    }
-}
-
-@media (max-width:425px) {
-
-    h1{
-        top:25rem;
-        font-size: 2rem;
-    }
-
-    .text-p1{
-        font-size: .7rem;
-    }
-
-    .text-p2{
-        font-size: .7rem;
-    }
-
-    .features-container{
-        height: 380vh;
-    }
-}
-
-@media(max-width:375px) {
-
-    h1{
-        top:27rem;
-        font-size: 1.6rem;
-     }
-
-    .stories-container{
-        height: 85vh;
-    }
-
-    .title-p1{
-        font-size: 1rem;
-    }
-
-    .features-container{
-        height: 340vh;
-    }
-}
-
-@media (max-width:350px) {
-    .features-container{
-        height: 317vh;
+        font-size:2.5rem;
     }
 }
 
 @media(max-width:320px) {
     
-    .stories-container{
-        height: 77vh;
+    .features-container{
+        display:block;
+        height:100%;
+        width:100%;
+        padding:15px;
+        gap: 15px;
     }
-
     .title-p1{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
-
     .text-p1{
-        font-size: .6rem;
+        font-size: .7rem;
     }
-
     .text-p2{
-        font-size: .6rem;
+        font-size: .7rem;
     }
-
-    .features-container{
-        height: 290vh;
-    }
-   
     .features-title{
-        font-size: .8rem;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
     }
-
+    .contact-p{
+        font-size: 1.4rem;
+    }
+    .items-font i{
+        font-size:2.5rem;
+    }
 }
 
-@media (max-width:310px) {
-    .features-container{
-        height: 270vh;
-    }
-}

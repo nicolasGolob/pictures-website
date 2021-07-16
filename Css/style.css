@@ -147,7 +147,6 @@ h1{
     background-color: rgb(7, 7, 7);
     font-family: 'Open Sans', sans-serif;
     /* background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgb(29, 29, 29) 100%, rgba(242,242,242,1) 80%); */
-    
 }
 
 .title-p1{
@@ -340,6 +339,7 @@ h1{
     display: flex;
     align-items:center;
     justify-content: center;
+    text-align: center;
     background-image: linear-gradient(to right, #808080, rgb(196, 196, 196));
     -webkit-background-clip: text;
     background-clip: text;

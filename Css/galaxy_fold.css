@@ -1,42 +1,40 @@
 
 h1{
-    top:28rem;  
-    font-size: 2rem;
+    top:27rem;
+    font-size: 1.7rem;
+    letter-spacing: .4rem;
 }
-
 .stories-container{
     height: 86vh; 
 }
-
 .title-p1{
-    font-size: 1rem;
+    font-size: .9rem;
 }
-
 .text-p1{
-    font-size: .5rem;
+    font-size: .6rem;
 }
-
 .text-p2{
-    font-size: .5rem;
+    font-size: .6rem;
 }
-
 .features-container{
     display:block;
-    height: 370vh;   
+    height:100%;
+    width:100%;
+    padding:1.5rem;
+    gap: 1.5rem;
 }
-
 .features-title{
-    font-size: 1rem;
+    font-size: .9rem;
 }
-
+.contact-container{
+    height: 130vh; 
+}
 .contact-title{
     font-size: 1rem;
 }
-
 .contact-p{
     font-size: .9rem;
 }
-
 .items-font i{
     font-size: 2rem;
 }
